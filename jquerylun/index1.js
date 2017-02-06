@@ -1,0 +1,9 @@
+$(function(){
+	testlun("#lunB",500,'red','green')
+	$(".left").click(function(){
+		leftLUN("#lunB",500,'red','green')
+	})
+	$(".right").click(function(){
+		rightLUN("#lunB",500,'red','green')
+	})
+})

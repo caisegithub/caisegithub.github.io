@@ -1,0 +1,33 @@
+.nan-left{
+	width: 300px;
+	position: fixed;
+	top:0;
+	right: -300px;
+	bottom: 0;
+	z-index: 1;
+	background: #000000;
+}
+.nan-left ul{
+	margin-top: 80%;
+	text-align: center;
+
+}
+.nan-left ul li{
+	margin: 60px auto;
+}
+
+.nan-left ul li a{
+	color: #fff;
+}
+.nan-left div{
+	width: 60px;
+	position: fixed;
+	top:45%;
+	right: 0px;
+	bottom: 45%;
+	z-index: -1;
+	background: #fff;
+	opacity: 0.6;
+	padding-top: 30px;
+	border-radius: 60px 0 0 60px;
+}

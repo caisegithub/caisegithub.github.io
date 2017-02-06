@@ -1,0 +1,59 @@
+#lunB{
+    width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+#lunB ul{
+    width: 6600px;
+    height: 164px;
+    padding: 0;
+    margin: 0;
+}
+#lunB ul li{
+    position: relative;
+    float: left;
+    width: 800px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    left: -800px;
+}
+
+#lunB ul li img {
+    width: 800px;
+    padding: 0;
+    margin: 0;
+}
+#lunB ol{
+    position: absolute;
+    bottom: 15px;
+    right: 80px;
+}
+#lunB ol li{
+    float: left;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: green;
+    text-align: center;
+}
+#lunB div ol> li:first-child{
+    background-color: red;
+}
+#lunB ol li:hover{
+    background-color: red;
+}
+.left{
+    position: absolute;
+    left: 0;
+    top:70px;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top:70px;
+}
+a{
+    list-style: none;
+}

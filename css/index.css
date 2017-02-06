@@ -1,0 +1,126 @@
+body{
+}
+.nan-top{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+	background: url(../image/1.jpg) no-repeat;
+	background-size: 1920px 1200px;
+}
+.nan-top span{
+	position: relative;
+	top: 285px;
+	right: -30%;
+	color: #fff;
+	font-size: 30px;
+}
+.nan-top ul{
+	float: right;
+	overflow: hidden;
+	margin-right: 60px;
+	position: relative;
+	z-index: 12;
+}
+.nan-top ul li{
+	width: 80PX;
+	height: 40px;
+	float: left;
+	margin-left: 20px;
+	line-height: 40px;
+	text-align: center;
+	
+}
+a,h1{
+	
+	color: #fff;
+}
+.nan-top ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition:background-color,color 10s;
+}
+
+.nan-top ul li a:hover{
+	color: red;
+	background-color: #333;
+}
+.nan-top h1{
+
+	float: left;
+	font-size: 36px;
+	margin: 80px 0 0 90px;
+	
+}
+.nan-cent{
+	height: 600px;
+	margin: 0 auto;
+	width: 1200px;
+	position: relative;
+	overflow: hidden;
+}
+.nan-cent p{
+	margin-top:10px;
+}
+.nan-cent h1{
+	font-size: 60px;
+	margin-top:100px;
+	text-align: center;
+	width: 600px;
+	position: absolute;
+	
+}
+.nan-cent img{
+	width: 600px;
+	height: 600px;
+}
+.nan-cent div{
+	width: 540px;
+	height: 540px;
+	background: #1CA883;
+	float: right;
+	text-align: center;
+	padding:30px 30px;
+	color: #fff;
+}
+.nan-cent div h3{
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+.nan-cent-1{
+	overflow: hidden;
+	width: 1200px;
+	margin: 10px auto;
+}
+.nan-cent-1 ul li{
+	padding-top: 10px;
+	width: 398px;
+	float: left;
+	height: 400px;
+}
+.nan-cent-1 ul li h1{
+	text-align: center;
+	color: #1CA883;
+	font-size:50px; 
+}
+.nan-cent-1 ul li p{
+	padding-left: 30px;
+	margin-top: 5px;
+}
+.nan-bottom{
+	height: 400px;
+	background:url(../image/2.jpg);
+	background-size: 100% 1080px;
+}
+.nan-bottom b{
+	position: relative;
+	top: 40px;
+	color: #fff;
+	font-size:44px;
+	padding-left: 66px; 
+}
+.nan-bottom p{
+	color: #fff;
+	font-size: 34px;
+	padding: 100px;
+}
