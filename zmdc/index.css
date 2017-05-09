@@ -1,0 +1,45 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	width: 100%;
+	background-color: #666666;
+}
+.top p{
+	margin-top:25px; 
+	text-align: center;
+	font-size:44px;
+	position: relative;
+	color: #00FFCC;
+}
+.top img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: -8px;
+	left: 59px;
+}
+.jieshao ul li{
+	height: 30px;
+	font-size:35px; 
+	padding: 10px 0 10px 120px;
+}
+.one{
+	margin-top:30px; 
+	background: url(./img/one.png)  no-repeat;
+	width: 100%;
+	background-size:100% 550px; 
+	height: 600px;
+}
+.neirong p{
+	padding: 10px 50px;
+}
+.neirong img{
+	margin: 0 auto;
+	display: table-cell; 
+	vertical-align: middle;
+ 	text-align: center;
+}
